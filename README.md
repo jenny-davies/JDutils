@@ -14,6 +14,6 @@ You can install the development version of JDutils from
 [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("pak")
-pak::pak("jenny-davies/JDutils")
+# install.packages("remotes")
+remotes::install_github("https://github.com/jenny-davies/JDutils")
 ```
