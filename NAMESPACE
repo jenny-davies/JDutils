@@ -2,4 +2,5 @@
 
 export(create_filename)
 export(generate_temporary_name)
+export(get_financial_year)
 export(run_and_capture_message)
