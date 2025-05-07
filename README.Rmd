@@ -16,9 +16,20 @@ knitr::opts_chunk$set(
 # JDutils
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 A collection of useful functions for small but frequent tasks.
+
+## Functions
+
+`create_filename`: given an export location and filename, check if there are any existing files with the same name in the same location and append a suffix to the end of the filename to avoid overwriting existing files.
+
+`generate_temporary_name`: generate a random string after "temp\_".
+
+`get_financial_year`: derive the financial year from a date in the format "YYYY-MM-DD".
+
+`run_and_capture_message`: run a chunk of code and capture any messages created into a new variable.
 
 ## Installation
 
@@ -28,4 +39,3 @@ You can install the development version of JDutils from [GitHub](https://github.
 # install.packages("remotes")
 remotes::install_github("https://github.com/jenny-davies/JDutils")
 ```
-
