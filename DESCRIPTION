@@ -1,0 +1,17 @@
+Package: JDutils
+Title: Useful Functions For Small But Frequent Tasks
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jenny", "Davies", , "jennyedavies@outlook.com", role = c("aut", "cre"))
+Description: Useful functions for a variety of random small, 
+    but frequently needed, tasks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stringi,
+    stringr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
