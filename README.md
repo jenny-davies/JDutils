@@ -4,6 +4,8 @@
 # JDutils
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/jenny-davies/JDutils/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jenny-davies/JDutils/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 A collection of useful functions for small but frequent tasks.
