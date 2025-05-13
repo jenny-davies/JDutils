@@ -35,6 +35,8 @@ A collection of useful functions for small but frequent tasks.
 
 `calculate_working_days`: calculate the number of working days in a year, including the number of working days in each month and the year's total.
 
+`read_and_union_files`: read in and union CSV files in the same format into a single data frame.
+
 ## Installation
 
 You can install the development version of JDutils from [GitHub](https://github.com/) with:

@@ -30,6 +30,9 @@ created into a new variable.
 year, including the number of working days in each month and the year’s
 total.
 
+`read_and_union_files`: read in and union CSV files in the same format
+into a single data frame.
+
 ## Installation
 
 You can install the development version of JDutils from
