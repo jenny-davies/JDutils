@@ -26,6 +26,10 @@ format “YYYY-MM-DD”.
 `run_and_capture_message`: run a chunk of code and capture any messages
 created into a new variable.
 
+`calculate_working_days`: calculate the number of working days in a
+year, including the number of working days in each month and the year’s
+total.
+
 ## Installation
 
 You can install the development version of JDutils from
