@@ -4,7 +4,7 @@
 \alias{calculate_working_days}
 \title{Calculate number of working days in the UK by month and year}
 \usage{
-calculate_working_days(start = year_start, end = year_end)
+calculate_working_days(start, end)
 }
 \arguments{
 \item{start}{A date in the format "YYYY-MM-DD"}
