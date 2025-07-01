@@ -33,6 +33,8 @@ total.
 `read_and_union_files`: read in and union CSV files in the same format
 into a single data frame.
 
+`%notin%`: negate the `%in%` function for easier filtering.
+
 ## Installation
 
 You can install the development version of JDutils from
