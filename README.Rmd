@@ -39,6 +39,8 @@ A collection of useful functions for small but frequent tasks.
 
 `%notin%`: negate the `%in%` function for easier filtering.
 
+`list_packages_used`: list the packages used in the active R project.
+
 ## Installation
 
 You can install the development version of JDutils from [GitHub](https://github.com/) with:

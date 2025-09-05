@@ -35,6 +35,8 @@ into a single data frame.
 
 `%notin%`: negate the `%in%` function for easier filtering.
 
+`list_packages_used`: list the packages used in the active R project.
+
 ## Installation
 
 You can install the development version of JDutils from
