@@ -34,7 +34,7 @@ calculate_working_days <- function(start, end) {
     dplyr::mutate(n_bankholidays = ifelse(is.na(.data$n_bankholidays), 0, .data$n_bankholidays),
                   n_working_days = .data$n_weekdays - .data$n_bankholidays,
                   year_total = sum(.data$n_working_days)) |> 
-    dplyr::select(.data$month_start, .data$n_working_days, .data$year_total)
+    dplyr::select(month_start, n_working_days, year_total)
   
   return(working_days)
 }
