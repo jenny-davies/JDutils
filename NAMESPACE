@@ -2,6 +2,7 @@
 
 export("%notin%")
 export(calculate_working_days)
+export(correct_filepath_format)
 export(create_filename)
 export(generate_temporary_name)
 export(get_financial_year)

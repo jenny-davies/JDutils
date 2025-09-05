@@ -37,6 +37,10 @@ into a single data frame.
 
 `list_packages_used`: list the packages used in the active R project.
 
+`correct_filepath_format`: convert a filepath with folders separated by
+backslashes into a filepath with forward slashes which can be read into
+R.
+
 ## Installation
 
 You can install the development version of JDutils from
