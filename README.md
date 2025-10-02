@@ -41,6 +41,10 @@ into a single data frame.
 backslashes into a filepath with forward slashes which can be read into
 R.
 
+`set_debugging_options`: set options so any error messages are
+automatically used as prompts for ChatGPT via the `searcher` package,
+with the “debugging” prompt used/
+
 ## Installation
 
 You can install the development version of JDutils from
