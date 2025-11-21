@@ -4,7 +4,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' stop_quietly()
+#' }
 stop_quietly <- function() {
   op <- options(show.error.messages = FALSE)
   on.exit(options(op))

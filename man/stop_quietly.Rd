@@ -13,5 +13,7 @@ Nothing - used to stop a process without an error message, where stopping is the
 Stop Quietly i.e. Without Error Messages
 }
 \examples{
+\dontrun{
 stop_quietly()
+}
 }
