@@ -14,10 +14,10 @@ Imports:
     lubridate,
     renv,
     rlang,
-    searcher,
     stringi,
     stringr,
     utils
 Suggests: 
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    searcher
 Config/testthat/edition: 3
