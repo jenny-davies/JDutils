@@ -1,3 +1,5 @@
+utils::globalVariables(c("month_start", "n_working_days", "year_total"))
+
 #' Calculate number of working days in the UK by month and year
 #'
 #' @param start A date in the format "YYYY-MM-DD"
