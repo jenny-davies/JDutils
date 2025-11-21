@@ -43,7 +43,10 @@ R.
 
 `set_debugging_options`: set options so any error messages are
 automatically used as prompts for ChatGPT via the `searcher` package,
-with the “debugging” prompt used/
+with the “debugging” prompt used.
+
+`stop_quietly`: stop a process without throwing an error message, when
+the desired behaviour of the programme is to stop.
 
 ## Installation
 
